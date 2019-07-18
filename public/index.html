@@ -40,14 +40,27 @@
         @media only screen and (max-width:620px) {
 
             /* For mobile phones: */
+            .botView {
+            background: white;
+            min-width: 400px;
+            width: 15vw;
+            min-height: 500px;
+            height:100vh;
+            float: right;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+            border: none;
+            webkit-box-shadow: 0 16px 18px rgba(0, 0, 0, .2) !important;
+            box-shadow: 0 16px 18px rgba(0, 0, 0, .2) !important;
+        }
+
             .bg {
                 /* The image used */
                 background-image: url("/images/bg.jpg");
-
-                /* Full height */
+                /* less width */
                 max-width: 20vw;
                 height: auto;
-
                 /* Center and scale the image nicely */
                 background-position: center;
                 background-repeat: no-repeat;
