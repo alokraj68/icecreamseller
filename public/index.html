@@ -14,8 +14,8 @@
             background-image: url("/images/bg.jpg");
 
             /* Full height */
-            max-width:100vw;
-            height:auto;
+            max-width: 100vw;
+            height: auto;
 
             /* Center and scale the image nicely */
             background-position: center;
@@ -35,6 +35,24 @@
             border: none;
             webkit-box-shadow: 0 16px 18px rgba(0, 0, 0, .2) !important;
             box-shadow: 0 16px 18px rgba(0, 0, 0, .2) !important;
+        }
+
+        @media only screen and (max-width:620px) {
+
+            /* For mobile phones: */
+            .bg {
+                /* The image used */
+                background-image: url("/images/bg.jpg");
+
+                /* Full height */
+                max-width: 20vw;
+                height: auto;
+
+                /* Center and scale the image nicely */
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
         }
     </style>
 </head>
